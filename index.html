@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./styles/style.css" rel="stylesheet" />
+    <title>Zeyad Karam</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header stick">
+        <label class="burger-menu" for="menu">
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+        </label>
+        <input id="menu" class="burger-menu__checkbox" type="checkbox" />
+
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li>
+              <a href="#bio" class="navigation__link navigation__bio">Bio</a>
+            </li>
+            <li>
+              <a href="#skills" class="navigation__link navigation__skills"
+                >Skills
+              </a>
+            </li>
+            <li>
+              <a href="#media" class="navigation__link navigation__media"
+                >Media</a
+              >
+            </li>
+            <li>
+              <a href="#projects" class="navigation__link navigation__projects"
+                >Projects</a
+              >
+            </li>
+            <li>
+              <a href="#clients" class="navigation__link navigation__clients"
+                >My Clients</a
+              >
+            </li>
+            <li>
+              <a href="#contact" class="navigation__link navigation__contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="toggle">
+          <h3 class="toggle__title">Switch Theme</h3>
+          <input
+            class="toggle__checkbox"
+            type="checkbox"
+            name="toggle checkbox"
+            id="toggle"
+          />
+          <label for="toggle" class="toggle__label"></label>
+        </div>
+      </header>
+
+      <section id="bio" class="bio section">
+        <div class="bio__data">
+          <h1 class="bio__heading">
+            Hi There, I'm A Junior FrontEnd and Engineer
+          </h1>
+          <p class="bio__objective">
+            My Name Is <span class="bio__name">Zeyad Karam</span>, an engineer
+            and a software student
+            <a
+              href="https://www.instagram.com/7z.karam/"
+              class="bio__instgram"
+              target="_blank"
+              >Instgram</a
+            >,
+            <a
+              href="https://x.com/GaaN63537455?t=zHhMFKd9OPvYNSxJgSMoLA&s=09"
+              class="bio__twitter"
+              target="_blank"
+              >Twitter</a
+            >,
+            <a
+              href="https://www.linkedin.com/in/%D8%B2%D9%8A%D9%8E%D9%80%D8%A7%D8%AF-zeyad-a82390326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              class="bio__linkedin"
+              target="_blank"
+              >Linkedin</a
+            >.
+          </p>
+          <a href="#contact" class="bio__links say-hi-link">Say Hi</a>
+          <a href="cv.html" class="bio__links find-out-link" target="_blank"
+            >Download CV <span class="bio__arrow">↓</span></a
+          >
+        </div>
+        <div class="bio__pic-content">
+          <img
+            class="bio__pic"
+            src="images/nobgprofilephoto.png"
+            alt="zeyad karam"
+          />
+        </div>
+      </section>
+
+      <section id="skills" class="skills section section__with-bg">
+        <h2 class="h2-heading">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__items">
+            <h2 class="skills__title">Drawing</h2>
+            <span class="skills__months">12 years</span>
+          </li>
+          <li class="skills__items">
+            <h2 class="skills__title">Swimming</h2>
+            <span class="skills__months">8 years</span>
+          </li>
+          <li class="skills__items">
+            <h2 class="skills__title">Gamer</h2>
+            <span class="skills__months"> 7 years</span>
+          </li>
+          <li class="skills__items">
+            <h2 class="skills__title">HTML</h2>
+            <span class="skills__months">2 months</span>
+          </li>
+          <li class="skills__items">
+            <h2 class="skills__title">CSS</h2>
+            <span class="skills__months">2 months</span>
+          </li>
+          <li class="skills__items">
+            <h2 class="skills__title">JavaScript</h2>
+            <span class="skills__months">Coming Soon...</span>
+          </li>
+        </ul>
+      </section>
+
+      <section id="media" class="media section">
+        <video
+          class="media__video"
+          src="videos/My dream setup.mp4"
+          alt="My dream setup"
+          controls
+          loop
+        ></video>
+      </section>
+
+      <section id="projects" class="projects section">
+        <h2 class="h2-heading">
+          My Featured <br />
+          Projects
+        </h2>
+        <div class="projects__main">
+          <img
+            src="images/desktop-design.jpg"
+            class="projects__img"
+            alt="Colurful Grid Design"
+            width="597px"
+            height="482px"
+          />
+          <div class="projects__data">
+            <h3 class="h3-heading">
+              Bento Grid <br />
+              Colorful Project
+            </h3>
+            <p class="projects__describtion">
+              This project was to practise my CSS grid skills <br />
+              next to my HTML and CSS main skills
+            </p>
+            <a
+              href="https://datboiikaram.github.io/bento-grid/"
+              class="projects__links"
+              target="_blank"
+              >Chrome link</a
+            >
+          </div>
+
+          <div class="projects__data">
+            <h3 class="h3-heading">
+              All MY LINKS <br />
+              Page
+            </h3>
+            <p class="projects__describtion">
+              This was my first ever project and i did it according to <br />
+              the skills i had back then
+            </p>
+            <a
+              href="https://datboiikaram.github.io/my-links/"
+              class="projects__links"
+              target="_blank"
+              >Chrome link</a
+            >
+          </div>
+          <img
+            src="images/mylinks.png"
+            class="projects__img"
+            alt="Links Preview"
+            width="593px"
+            height="481"
+          />
+        </div>
+      </section>
+
+      <section id="clients" class="clients section section__with-bg">
+        <h2 class="h2-heading">What My <br />Clients Say.</h2>
+        <div class="clients__opinions">
+          <div class="clients__wrapper">
+            <p class="clients__opinion">
+              Unfortunately I have No Clients at the moments But in the future i
+              hope i get a lot haha
+            </p>
+            <p class="clients__opinion">
+              I said I had no clients why are you here!
+            </p>
+            <p class="clients__opinion">
+              NO Way you came here too you're absolutely kidding
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact">
+        <div>
+          <p class="contact__description">
+            Feel Free to reach out to me any time. I will help you with my 2
+            months experience 😂😂
+          </p>
+          <a class="contact__email" href="mailto:zeyadseif77@gmail.com"
+            >zeyadsief77@gmail.com</a
+          >
+          <div class="contact__socials">
+            <a href="#" class="contact__social">
+              <img
+                src="images/brand/facebook.svg"
+                alt="icon of faceebook"
+              /> </a
+            ><a
+              href="https://x.com/GaaN63537455?t=zHhMFKd9OPvYNSxJgSMoLA&s=09"
+              class="contact__social"
+              target="_blank"
+            >
+              <img src="images/brand/twitter.svg" alt="icon of twitter" /></a
+            ><a href="#" class="contact__social">
+              <img src="images/brand/youtube.svg" alt="icon of youtube" /></a
+            ><a
+              href="https://github.com/datboiikaram"
+              class="contact__social"
+              target="_blank"
+            >
+              <img src="images/brand/github.svg" alt="icon of github" /></a
+            ><a
+              href="https://www.instagram.com/7z.karam/"
+              class="contact__social"
+              target="_blank"
+            >
+              <img src="images/brand/instagram.svg" alt="icon of instgram" /></a
+            ><a
+              href="https://www.linkedin.com/in/%D8%B2%D9%8A%D9%8E%D9%80%D8%A7%D8%AF-zeyad-a82390326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              class="contact__social"
+              target="_blank"
+            >
+              <img src="images/brand/LinkedIn.svg" alt="icon of linkedIn"
+            /></a>
+          </div>
+        </div>
+        <div class="contact__formcontent">
+          <h2 class="h2-heading">Let's Work <br />Together!</h2>
+          <form action="results.html">
+            <div class="contact__inputs">
+              <input
+                class="contact__input"
+                type="text"
+                placeholder="Full Name"
+                name="Full Name"
+                required
+              />
+              <input
+                class="contact__input"
+                type="tel"
+                placeholder="Phone No. (Egypt's Format)"
+                pattern="[0-9]{11}"
+                required
+                name="Telephone"
+              />
+            </div>
+            <textarea
+              class="contact__input contact__textarea"
+              name="description"
+              id="description"
+              rows="1"
+              placeholder="Your Message"
+              required
+            ></textarea>
+            <input class="contact__button" type="submit" value="Send Message" />
+          </form>
+        </div>
+      </section>
+
+      <footer class="footer">&copy; 2024 By Zeyad Karam</footer>
+    </div>
+  </body>
+</html>
